@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.off,.one,.two,.three,.bomb{
+    min-width: 46px;
+    min-height: 46px;
+    border: 2px dotted;
+}
+.table{
+    border: 2px solid;
+    width:402px;
+    height:402px;
+
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display:flex;
+    flex-direction:row;
+}
+
