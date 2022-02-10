@@ -3,23 +3,28 @@ body{
     justify-content: center;
     align-items: center;
 }
-.one{
-    color:blue;
-}
-.two{
-    color:green;
-
-}
-.three{
-    color:red;
-}
-
 .off,.one,.two,.three,.bomb,.zero{
     min-width: 46px;
     min-height: 46px;
     border: 2px dotted black;
     text-align: center;
     font-size: 30px;
+    background-color: lightgray;
+}
+
+.one,.off:hover{
+    color:blue;
+}
+.two,.off:hover{
+    color:green;
+
+}
+.three,.off:hover{
+    color:red;
+}
+.off{
+    color: transparent;
+    border: 2px solid black;
 }
 /* TODO:add border gradient */
 .table{
