@@ -3,15 +3,29 @@ body{
     justify-content: center;
     align-items: center;
 }
-.off,.one,.two,.three,.bomb{
+.one{
+    color:blue;
+}
+.two{
+    color:green;
+
+}
+.three{
+    color:red;
+}
+
+.off,.one,.two,.three,.bomb,.zero{
     min-width: 46px;
     min-height: 46px;
-    border: 2px dotted;
+    border: 2px dotted black;
+    text-align: center;
+    font-size: 30px;
 }
+/* TODO:add border gradient */
 .table{
     border: 2px solid;
-    width:402px;
-    height:402px;
+    width:400px;
+    height:400px;
 
     display: flex;
     flex-direction: column;
