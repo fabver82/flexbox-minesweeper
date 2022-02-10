@@ -4,25 +4,31 @@ body{
     align-items: center;
 }
 /* TODO:add border gradient */
+
 .table{
-    border: 2px solid;
+    border-width: 5px;
+    border-style: solid;
+    border-color:grey;
     width:400px;
     height:400px;
-
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    
 }
+
 .row{
     display:flex;
     flex-direction:row;
 }
 .off,.one,.two,.three,.bomb,.zero{
-    min-width: 46px;
-    min-height: 46px;
-    border: 2px dotted black;
+    min-width: 48px;
+    min-height: 48px;
+    border: 1px dashed black;
     /* text-align: center; */
     font-size: 30px;
     background-color: lightgray;
+
+    /* center element in cells */
     display:flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +46,11 @@ body{
 }
 .off{
     color: transparent;
-    border: 2px solid black;
+    border-width: 1px;
+    border-style:solid;
+    border-color:white black black white;
+    /* box-shadow: 1px 1px 0px 1px rgba(255,255,255,1) inset;
+    box-shadow: -1px -1px 0px 1px rgba(0,0,0,1) inset; */
 }
 
 
