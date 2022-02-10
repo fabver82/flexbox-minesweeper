@@ -6,16 +6,23 @@ body{
 /* TODO:add border gradient */
 
 .table{
-    border-width: 5px;
-    border-style: solid;
-    border-color:grey;
+    position:relative;
     width:400px;
     height:400px;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color:grey; */
+
+    /* FIXME:last minute temporary solution  */
+    border-left:5px solid grey;
+    border-top:5px solid grey;
+    border-right:5px ridge white;
+    border-bottom:5px ridge white;
+    
     display: flex;
     flex-direction: column; 
     
 }
-
 .row{
     display:flex;
     flex-direction:row;
@@ -49,8 +56,22 @@ body{
     border-width: 1px;
     border-style:solid;
     border-color:white black black white;
+
+    /* FIXME:only one box-shadow allowed? */
     /* box-shadow: 1px 1px 0px 1px rgba(255,255,255,1) inset;
     box-shadow: -1px -1px 0px 1px rgba(0,0,0,1) inset; */
 }
 
+/* FIXME:off doesnt work if that is uncommented */
+/* .table::before{
+    position: absolute;
+    content:"";
+    top: -10px;
+    left:-10px;
+    right:-10px;
+    bottom:-10px;
+    border-style:solid;
+    border-width:5px;
+    border-color:linear-gradient(132deg, rgba(0,0,0,1) 0%, rgba(145,145,145,0) 100%);
+} */
 
