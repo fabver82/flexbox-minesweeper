@@ -3,13 +3,29 @@ body{
     justify-content: center;
     align-items: center;
 }
+/* TODO:add border gradient */
+.table{
+    border: 2px solid;
+    width:400px;
+    height:400px;
+
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display:flex;
+    flex-direction:row;
+}
 .off,.one,.two,.three,.bomb,.zero{
     min-width: 46px;
     min-height: 46px;
     border: 2px dotted black;
-    text-align: center;
+    /* text-align: center; */
     font-size: 30px;
     background-color: lightgray;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .one,.off:hover{
@@ -26,17 +42,5 @@ body{
     color: transparent;
     border: 2px solid black;
 }
-/* TODO:add border gradient */
-.table{
-    border: 2px solid;
-    width:400px;
-    height:400px;
 
-    display: flex;
-    flex-direction: column;
-}
-.row{
-    display:flex;
-    flex-direction:row;
-}
 
