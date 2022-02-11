@@ -28,6 +28,7 @@ body{
     flex-direction: column; 
     
 }
+
 .row{
     display:flex;
     flex-direction:row;
@@ -45,8 +46,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-
-.one,.off:hover{
+/* FIXME:hover goes to the last occurence */
+.one,.one:hover{
     color:blue;
 }
 .two,.off:hover{
